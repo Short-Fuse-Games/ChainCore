@@ -1,0 +1,28 @@
+{
+  "name": "chaincore",
+  "version": "1.0.0",
+  "description": "ChainCore is a powerful, modular blockchain infrastructure designed for game developers. It provides the essential building blocks for creating Web3 games while remaining completely engine-agnostic. Whether you're building with Unity, Unreal, Godot, Phaser.js, or any other game engine, ChainCore seamlessly integrates blockchain functionality into your game.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.24.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
